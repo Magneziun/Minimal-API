@@ -2,7 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 const string UploadDir = "/data/incoming";
-const string ApiToken = "СЮДА_ДЛИННЫЙ_СЛУЧАЙНЫЙ_ТОКЕН";   // см. ниже как сгенерить
+const string ApiToken = "82edcf8a73bc610e5f565bedb1b13677da40094ef1f3b849b1b2a8adc6831f5e1f31c96de4b9093a11fa0a25b05bfbc8";   // см. ниже как сгенерить
 
 Directory.CreateDirectory(UploadDir);
 
